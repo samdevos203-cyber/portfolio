@@ -1,0 +1,200 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* LETTERTYPES */
+
+/* Marine Regular 
+font-family: "marine", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+/* Margine Light 
+font-family: marine, sans-serif;
+font-weight: 300;
+font-style: normal; */
+
+/* Marine Bold
+font-family: marine, sans-serif;
+font-weight: 700;
+font-style: normal; */
+
+
+/* KLEUREN */
+/* Lighte Text op donkere achtergronden : #E5F9E0; */
+/* Donkere Kleuren Op lighte achtergronden : #30292F; */
+/* Body achterground kleur : #EAF4F4; */
+
+/* @media only screen and (max-width: 1920px) { */
+
+
+/* containers  */
+.container {
+    width:80%;
+    margin:0 auto;
+}
+
+/* Dit deel css is voor de Header */
+
+    .staticheader{
+        background-color:red;
+        width:98vw;
+        height:4rem;
+        border-radius:0.8rem;
+        margin:0.5rem auto;
+    }
+    .headercontainer {
+        display:flex;
+        align-items:center;
+        gap:25rem;
+        height:4rem;
+    }    
+    .staticlogo {
+        width:20rem;
+        height:2.5rem;
+        background-color: gray;
+    }
+    .headeritem {
+        background:none;
+        border:none;
+        display: inline-block;
+        font-family:marine, sans-serif;
+        font-weight:700;
+        font-style:normal;
+        font-size:1.5em;
+        padding-left:0.8rem;
+        padding-right:0.8rem;
+    }
+
+/* Dit deel css is voor de Home Page */
+
+    .home {
+        height:53.125rem;
+        margin:0 auto;
+    }
+    h1 {
+        font-family: marine, sans-serif;
+        font-weight:700;
+        font-style:normal;
+        font-size:5rem;
+    }
+    .bodytext{
+        font-family:marine,sans-serif;
+        font-weight: 400;
+        font-style:normal;
+        font-size:1.5rem;
+    }
+    .homecontent{
+        padding-top:21.875rem;
+        text-align: center;
+    }
+
+/* Dit deel css is voor de gloeinde balk aan de onderkant van de home page */
+
+    .bar{
+        height:6.75rem;
+        background-color: red;
+    }
+
+/* Dit deel css is voor de section about */
+
+    .about {
+        background-color:gray;
+        height:63em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:1.5rem;
+        background-color: white;
+        height:35rem;
+        border-radius:5rem;
+    }
+    .middle {
+        width:1rem;
+        background-color: red;
+        height: 45rem;
+        margin:0 auto;
+    }
+    .info {
+        width: 50%;
+    }
+    .naam {
+        font-family:marine,sans-serif;
+        font-weight:700;
+        font-style:normal;
+        font-size:2.3rem;
+    }
+    .overigeinfo {
+        padding-top:3rem;
+    }
+    .titles {
+        font-family:marine,sans-serif;
+        font-weight:600;
+        font-style:normal;
+        font-size:1.8rem;
+    }
+    .leeftijd,
+    .woonplaats,
+    .huidigestudie,
+    .anderestudies {
+        margin-top:0.5rem;
+        margin-bottom: 0.5rem;
+    }
+/* dit deel in de css is voor vaardigheden */
+    .vaardigheden {
+    background-color: green;
+    height:40rem;
+    }
+    .skillstitle {
+        font-family:marine,sans-serif;
+        font-weight:700;
+        font-style:normal;
+        font-size:2.3rem;
+        text-align: center;    
+    }
+    .skills {
+        background-color: red;
+        height:30rem;
+        border-radius: 3rem;        
+    }
+/* cards */
+    .cards {
+        background-color: white;
+        height:18rem;
+        width: 15rem;
+        border-radius: 1.75rem;
+    }
+    .icontext {
+        color:white;
+        font-family:marine,sans-serif;
+        font-weight:600;
+        font-style:normal;
+        font-size:2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
+        height:5rem;
+        width:5rem;
+        border-radius:50%;
+        margin:0 auto;
+    }
+    .skillnaam {
+        color:black;
+        font-family:marine,sans-serif;
+        font-weight:600;
+        font-style:normal;
+        font-size:1.2rem;
+        text-align: center;       
+    }
+    .skillniveau {
+        
+    }
+/* } */

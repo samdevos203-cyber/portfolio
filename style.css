@@ -35,27 +35,30 @@ font-style: normal; */
     width:80%;
     margin:0 auto;
 }
+body {
+    background-color: #EAF4F4;
+}
 
 /* Dit deel css is voor de Header */
-
+    header {
+        display: flex;
+        justify-content: center;
+    }
     .staticheader{
         background-color:red;
-        width:98vw;
+        width:50vw;
         height:4rem;
-        border-radius:0.8rem;
+        border-radius:1.8rem;
         margin:0.5rem auto;
+        position:fixed;
+        
     }
     .headercontainer {
         display:flex;
+        justify-content: center;
         align-items:center;
-        gap:25rem;
         height:4rem;
     }    
-    .staticlogo {
-        width:20rem;
-        height:2.5rem;
-        background-color: gray;
-    }
     .headeritem {
         background:none;
         border:none;
@@ -64,8 +67,8 @@ font-style: normal; */
         font-weight:700;
         font-style:normal;
         font-size:1.5em;
-        padding-left:0.8rem;
-        padding-right:0.8rem;
+        padding-left:1.8rem;
+        padding-right:1.8rem;
     }
 
 /* Dit deel css is voor de Home Page */
@@ -91,17 +94,10 @@ font-style: normal; */
         text-align: center;
     }
 
-/* Dit deel css is voor de gloeinde balk aan de onderkant van de home page */
-
-    .bar{
-        height:6.75rem;
-        background-color: red;
-    }
 
 /* Dit deel css is voor de section about */
 
     .about {
-        background-color:gray;
         height:63em;
         display: flex;
         justify-content: center;
@@ -112,7 +108,7 @@ font-style: normal; */
         justify-content: center;
         align-items: center;
         gap:1.5rem;
-        background-color: white;
+        background-color: #FFFFFF;
         height:35rem;
         border-radius:5rem;
     }
@@ -149,27 +145,34 @@ font-style: normal; */
     }
 /* dit deel in de css is voor vaardigheden */
     .vaardigheden {
-    background-color: green;
-    height:40rem;
+    height:30rem;
     }
     .skillstitle {
         font-family:marine,sans-serif;
         font-weight:700;
         font-style:normal;
         font-size:2.3rem;
-        text-align: center;    
+        text-align: center; 
+        margin-bottom:1.8rem;
+        padding-top:2rem;   
     }
     .skills {
-        background-color: red;
-        height:30rem;
-        border-radius: 3rem;        
+        background-color: #FFFFFF;
+        height:24rem;
+        border-radius: 3rem;
+    }
+    .skill-cards {
+        display: flex;
+        justify-content: center;
+        gap:2rem;
     }
 /* cards */
     .cards {
-        background-color: white;
-        height:18rem;
-        width: 15rem;
+        background-color: #EAF4F4;
+        height:13rem;
+        width: 10.5rem;
         border-radius: 1.75rem;
+        padding-top:1rem;
     }
     .icontext {
         color:white;
@@ -192,9 +195,107 @@ font-style: normal; */
         font-weight:600;
         font-style:normal;
         font-size:1.2rem;
-        text-align: center;       
+        text-align: center;
+        margin-top:1.2rem;     
     }
     .skillniveau {
-        
+        color:black;
+        font-family:marine,sans-serif;
+        font-weight:600;
+        font-style:normal;
+        font-size:1.2rem;
+        text-align: center;
+        margin-top:0.15rem         
     }
+    .skill-time {
+        color:gray;
+        font-family:marine,sans-serif;
+        font-weight:600;
+        font-style:normal;
+        font-size:1rem;
+        text-align: center;
+        margin-top: 0.4rem;         
+    }
+
+/* dit deel is voor portfolio */
+    .portfolio {
+        height:300rem;
+    }
+    .chemelot {
+        width:80%;
+        background-color: #FFFFFF;
+        margin:0 auto;
+        padding:3%;
+        border-radius: 50px;
+        margin-bottom:10%
+    }
+    .chemelot-titel,
+    .sign-titel {
+        font-family:marine,sans-serif;
+        font-weight:700;
+        font-style:normal;
+        font-size:2.3rem;
+        text-align: center;
+        margin-bottom:5%;        
+    }
+    .portfolio-title{
+        font-family:marine,sans-serif;
+        font-weight:700;
+        font-style:normal;
+        font-size:2.3rem;
+        text-align: center; 
+        margin-bottom:3%;
+    }
+    .logo-container {
+        width:20%;
+        height:20%;
+    }
+    .logo {
+        display:flex;
+        justify-content: center;
+        gap:3%;
+    }
+    .visitekaartje {
+        display: flex;
+        justify-content: center;
+        padding:2% 0%;
+    }
+    .abriposter-container {
+        max-width:25%;
+        margin:0 auto;
+    }
+    .abrioster {
+        width:100%;
+    }
+    .visitekaartje-container {
+        max-width:30%;
+    }
+    .visitekaartje {
+        width:100%;
+    }
+    .sign-opdrachten {
+        display: flex;
+        justify-content: center;
+        gap: 1%;
+    }
+    .sign-foto {
+        max-width:25%;
+    }
+    .foto-sign {
+        width:80%;
+    }
+    .sign-bestanden {
+        max-width: 80%;
+        margin:0 auto;
+    }
+    .sign{
+        width:80%;
+        background-color: #FFFFFF;
+        margin:0 auto;
+        padding:3%;
+        border-radius: 50px;
+        margin-bottom:10%
+    }
+    
+
 /* } */

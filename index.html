@@ -11,9 +11,6 @@
     <header>
          <div class="staticheader">
             <div style="width:80%; margin:0 auto;" class="container headercontainer">
-             <div class="staticlogo">
-
-             </div>
             
              <div class="staticheaderitems">
                 <button class="headeritem">
@@ -28,12 +25,6 @@
                 <button class="headeritem">
                     <p class="headeritemtext">Portfolio</p>
                 </button>
-                <button class="headeritem">
-                    <p class="headeritemtext">Socials</p>
-                </button>
-                <button class="headeritem">
-                    <p class="headeritemtext">Contact</p>
-                </button>
              </div>
             </div> 
          </div>
@@ -47,9 +38,6 @@
                 </div>
             </div>
         </section>
-        <section class="scrolldownbar">
-            <div class="bar"></div>
-        </section>
         <section class="about">
             <div class="container">
                 <div class="aboutme">
@@ -58,11 +46,11 @@
                         <p class="naam">Sam de vos</p>
                         <div class="overigeinfo">
                             <div class="leeftijd">
-                                <p class="titles">leeftijd</p>
+                                <p class="titles">Leeftijd</p>
                                 <p class="bodytext">22</p>
                             </div>
                             <div class="woonplaats">
-                                <p class="titles">woonplaats</p>
+                                <p class="titles">Woonplaats</p>
                                 <p class="bodytext">Hoogerheide - Woensdrecht</p>
                             </div>
                             <div class="huidigestudie">
@@ -82,32 +70,96 @@
             <div class="container">
                 <div class="skills">
                     <p class="skillstitle">Skills & Tools</p>
-                    <div class="cards">
-                        <p class="icontext">PS</p>
-                        <p class="skillnaam">Photoshop</p>
-                        <p class="skillniveau">Gemiddeld</p>
+                    <div class="skill-cards">
+                        <div class="cards">
+                            <p class="icontext">PS</p>
+                            <p class="skillnaam">Photoshop</p>
+                            <p class="skillniveau">Amateur</p>
+                            <p class="skill-time">4 Jaar ervaring</p>
+                        </div>
+                        <div class="cards">
+                            <p class="icontext">ID</p>
+                            <p class="skillnaam">Indesign</p>
+                            <p class="skillniveau">Gemiddeld</p>
+                            <p class="skill-time">4 Jaar ervaring</p>
+                        </div>
+                        <div class="cards">
+                            <p class="icontext">AI</p>
+                            <p class="skillnaam">Illustrator</p>
+                            <p class="skillniveau">Gemiddeld</p>
+                            <p class="skill-time">4 Jaar ervaring</p>
+                        </div>
+                        <div class="cards">
+                            <p class="icontext">VS</p>
+                            <p class="skillnaam">Visual Studio Code</p>
+                            <p class="skillniveau">Amateur</p>
+                            <p class="skill-time">1.5 Jaar ervaring</p>
+                        </div>
+                        <div class="cards">
+                            <p class="icontext">SIGN</p>
+                            <p class="skillnaam">Sign</p>
+                            <p class="skillniveau">Amateur</p>
+                            <p class="skill-time">0.5 Jaar ervaring</p>
+                        </div>
                     </div>
                 </div>                              
+            </div>
+        </section>
+        <section class="portfolio">
+            <p class="portfolio-title">Portfolio</p>
+            <div class="chemelot">
+                <p class="chemelot-titel">Chemelot Project</p>
+                <div class="logo">
+                    <div class="logo-container">
+                        <img rel="chemelotlogo" class="logo-chemelot" src="/files/portfolio foto's/Chemelot 100 jaar logo paars.svg">
+                    </div>
+                    <div class="logo-container">
+                        <img rel="chemelotlogo" class="logo-chemelot" src="/files/portfolio foto's/Chemelot 100 jaar logo roze.svg">
+                    </div>
+                    <div class="logo-container">
+                        <img rel="chemelotlogo" class="logo-chemelot" src="/files/portfolio foto's/Chemelot 100 jaar logo wit.svg">
+                    </div>
+                </div>
+                <div class="overigechemelotopdrachten">
+                    <div class="visitekaartje">
+                        <div class="visitekaartje-container">
+                            <img rel="voork" class="visitekaartje" src="/files/portfolio foto's/voorkant visite kaartje.svg">
+                        </div>
+                        <div class="visitekaartje-container">
+                            <img rel="achterkant" class="visitekaartje" src="/files/portfolio foto's/achterkant visitekaartje.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="abriposter-container">
+                        <img rel="abriposter" class="abriposter" src="/files/portfolio foto's/Abriposter chemelot.svg">
+                </div>
+            </div>
+            <div class="sign">
+                <p class="sign-titel">Sign</p>
+                <div class="sign-opdrachten">
+                    <div class="sign-foto">
+                        <img rel="signfoto" class="foto-sign" src="/files/portfolio foto's/IMG_0697.jpeg">
+                    </div>
+                    <div class="sign-foto">
+                        <img rel="sign-foto" class="foto-sign" src="/files/portfolio foto's/IMG_0711.jpeg">
+                    </div>
+                    <div class="sign-foto">
+                        <img rel="signfoto" class="foto-sign" src="/files/portfolio foto's/IMG_0712.jpeg">
+                    </div>
+                </div>
+                <div class="sign-bestanden">
+                    <div class="bestands-screenshots">
+                        <img rel="signbestanden" class="sign-bestanden" src="/files/portfolio foto's/sign bestands foto kleuren.svg">
+                    </div>
+                    <div class="bestands-screenshots">
+                        <img rel="signbestanden" class="sign-bestanden" src="/files/portfolio foto's/sign chemelot bestand.svg">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
 
     </footer>
-        <!-- <script>
-    var headerscroll = document.querySelector('.staticheader')
-    window.onscroll = function() {
-  
-    // pageYOffset or scrollY
-    if (window.pageYOffset > 100) {
-     headerscroll.classList.add('scrollheader')
-    }
-
-   else {
-      headerscroll.classList.remove('scrollheader')
-    }
-  }
-
-</script>     -->
 </body>
 </html>
